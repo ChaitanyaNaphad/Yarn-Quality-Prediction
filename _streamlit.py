@@ -8,7 +8,7 @@ import numpy as np
 # -----------------------------
 # Load dataset and train model
 # -----------------------------
-file_path = r"C:\Users\chaitanya naphad\Desktop\dataset.csv"
+file_path = "dataset.csv"
 df = pd.read_csv(file_path)
 
 # Separate input and output
@@ -70,3 +70,4 @@ if st.button("🔍 Predict Yarn Quality"):
     # Optional: Display entered data summary
     st.markdown("### Entered Parameters")
     st.dataframe(input_data)
+
